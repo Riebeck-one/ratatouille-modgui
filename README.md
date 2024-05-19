@@ -2,6 +2,11 @@
 
 This repository provides graphical interface files for the Ratatouille LV2 plugin. The Ratatouille plugin is designed to load neural files, typically compatible with software such as NAM or AIDAX.
 
+<div align="center">
+    <img src="https://github.com/Riebeck-one/ratatouille-modgui/assets/721025/c9d10417-ec82-47d4-960e-a5ebbba1286c" alt="Ratatouille GUI">
+</div>
+
+
 ## Installation
 
 To install these files, you need to have the Ratatouille plugin installed in the "lv2" folder of the MOD Desktop configuration directory, which by default is located in the "Documents" folder of your PC. Follow the steps below to complete the installation:
