@@ -11,8 +11,8 @@ This repository provides graphical interface files for the Ratatouille LV2 plugi
 
 To install these files, you need to have the Ratatouille plugin installed in the "lv2" folder of the MOD Desktop configuration directory, which by default is located in the "Documents" folder of your PC. Follow the steps below to complete the installation:
 
-1. Ensure you have the Ratatouille plugin installed. You can find the Ratatouille plugin [here](https://github.com/brummer10/Ratatouille.lv2).
-2. Download and install MOD Desktop, which is an LV2 plugin host. You can find it [here](https://github.com/moddevices/mod-desktop).
+1. Download and install MOD Desktop, which is an LV2 plugin host. You can find it [here](https://github.com/moddevices/mod-desktop).
+2. Ensure you have the Ratatouille plugin installed. You can find the Ratatouille plugin [here](https://github.com/brummer10/Ratatouille.lv2).
 3. Copy the files from this repository into the "lv2" directory within the MOD Desktop configuration folder. Overwrite existing files if necessary.
 
 Once the files are copied, the plugin will be available in the MOD Desktop web interface under the name "Ratatouille Brummer" in the "Simulator" category.
