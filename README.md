@@ -3,7 +3,7 @@
 This repository provides graphical interface files for the Ratatouille LV2 plugin. The Ratatouille plugin is designed to load neural files, typically compatible with software such as NAM or AIDAX.
 
 <div align="center">
-    <img src="https://github.com/Riebeck-one/ratatouille-modgui/assets/721025/349e506f-cd07-4b98-a064-43bc36662e22" alt="Ratatouille GUI">
+    <img src="https://github.com/Riebeck-one/ratatouille-modgui/assets/721025/e2498a38-2dbb-4208-818e-8031f6cd55b3" alt="Ratatouille GUI">
 </div>
 
 
@@ -19,7 +19,7 @@ Once the files are copied, the plugin will be available in the MOD Desktop web i
 
 ## Compatibility
 
-This interface has only been tested on Linux. Its functionality on Windows or macOS is unverified. Additionally, this interface is designed for version 0.2 of the Ratatouille plugin.
+This interface has only been tested on Linux. Its functionality on Windows or macOS is unverified. Additionally, this interface is designed for version 0.4 of the Ratatouille plugin.
 
 ## Usage
 
