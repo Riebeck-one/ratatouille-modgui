@@ -51,20 +51,20 @@ rata:RTN_Model1
 
 rata:irfile
     a lv2:Parameter ;
-    mod:fileTypes "cabsim" ;
+    mod:fileTypes "wav, audio" ;
     rdfs:label "IR File" ;
     rdfs:range atom:Path .
 
 rata:irfile1
     a lv2:Parameter ;
-    mod:fileTypes "cabsim" ;
+    mod:fileTypes "wav, audio" ;
     rdfs:label "IR File 1" ;
     rdfs:range atom:Path .
 
 <urn:brummer:ratatouille>
    a lv2:Plugin ,
        lv2:SimulatorPlugin ;
-	doap:maintainer [
+ 	doap:maintainer [
 		foaf:name "Brummer";
 		foaf:homepage <https://github.com/brummer10/Ratatouille.lv2>;
 	];
@@ -72,15 +72,15 @@ rata:irfile1
    doap:license <https://spdx.org/licenses/BSD-3-Clause> ;
    lv2:project <urn:brummer:ratatouille> ;
    lv2:requiredFeature urid:map ;
-   lv2:optionalFeature lv2:hardRTCapable ;
+   lv2:optionalFeature lv2:hardRTCapable ,
+       opts:options ;
    lv2:requiredFeature urid:map ,
        bufsz:boundedBlockLength ,
        work:schedule ;
    lv2:extensionData work:interface ,
                     state:interface ;
-   lv2:minorVersion 0 ;
-   lv2:microVersion 2 ;
-
+   lv2:minorVersion 4 ;
+   lv2:microVersion 0 ;
    	rdfs:comment """
 Ratatouille allow to load up to two neural model files and mix there output. Those models could be *.nam files or *.json or .aidax files. So you could blend from clean to crunch for example, or, go wild and mix different amp models, or mix a amp with a pedal simulation.
 
@@ -89,7 +89,6 @@ To round up the sound it allow to load up to two Impulse Response files and mix 
 Each neural model may have a different expected Sample Rate, Ratatouille will resample the buffer to match that.
 Impulse Response Files will be resampled on the fly to match the session Sample Rate.
 """;
-
 guiext:ui <urn:brummer:ratatouille_ui> ;
 
 patch:writable rata:NAM_Model ;
@@ -100,7 +99,7 @@ patch:writable rata:irfile ;
 patch:writable rata:irfile1 ;
 
 rdfs:comment """
-...
+A Neural Model loader and mixer
 """;
 
 
@@ -172,6 +171,16 @@ rdfs:comment """
       lv2:default 0.500000 ;
       lv2:minimum 0.000000 ;
       lv2:maximum 1.000000 ;
+   ], [
+      a lv2:InputPort ,
+          lv2:ControlPort ;
+      lv2:index 8 ;
+      lv2:symbol "Knob4" ;
+      lv2:name "Delay" ;
+      lv2:portProperty lv2:integer ;
+      lv2:default 0.000000 ;
+      lv2:minimum 0.000000 ;
+      lv2:maximum 4096.000000 ;
    ] .
 
 <urn:brummer:ratatouille_ui>
