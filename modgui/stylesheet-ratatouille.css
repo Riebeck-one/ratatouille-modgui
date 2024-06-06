@@ -75,17 +75,66 @@
     position:relative;
 }
 
-.mod-pedal-boxy{{{cns}}}.mod-four-knobs .mod-control-group .mod-knob .mod-knob-image {
+.mod-pedal-boxy{{{cns}}}.mod-four-knobs .mod-control-group .mod-knob .mod-knob-image1 {
     background-repeat:no-repeat;
     background-size:auto 60px;
     height:60px;
     width:60px;
     margin-bottom: 0px;
     margin-top: 35px;
-    margin-left: 23px;
-    margin-right: 25px;
-    scale:2.9;
+    margin-left: 19px;
+    margin-right: 17px;
+    scale:2.5;
 }
+
+.mod-pedal-boxy{{{cns}}}.mod-four-knobs .mod-control-group .mod-knob .mod-knob-image2{
+    background-repeat:no-repeat;
+    background-size:auto 60px;
+    height:60px;
+    width:60px;
+    margin-bottom: 0px;
+    margin-top: 37px;
+    margin-left: 12px;
+    margin-right: 8px;
+    scale:2.1;
+}
+
+.mod-pedal-boxy{{{cns}}}.mod-four-knobs .mod-control-group .mod-knob .mod-knob-image3{
+    background-repeat:no-repeat;
+    background-size:auto 60px;
+    height:60px;
+    width:60px;
+    margin-bottom: 0px;
+    margin-top: 37px;
+    margin-left: 1px;
+    margin-right: 3px;
+    scale:1.8;
+}
+
+.mod-pedal-boxy{{{cns}}}.mod-four-knobs .mod-control-group .mod-knob .mod-knob-image4{
+    background-repeat:no-repeat;
+    background-size:auto 60px;
+    height:60px;
+    width:60px;
+    margin-bottom: 0px;
+    margin-top: 37px;
+    margin-left: 6px;
+    margin-right: 9px;
+    scale:2.1;
+}
+
+.mod-pedal-boxy{{{cns}}}.mod-four-knobs .mod-control-group .mod-knob .mod-knob-image5{
+    background-repeat:no-repeat;
+    background-size:auto 60px;
+    height:60px;
+    width:60px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    scale:2.5;
+}
+
 .mod-pedal-boxy{{{cns}}}.mod-four-knobs .mod-control-group .mod-knob {
     display:inline-block;
     height:161px;
@@ -177,5 +226,27 @@
 
 /* = KNOBS
 ================================================ */
-.mod-pedal-boxy{{{cns}}} .mod-control-group.mod-blue .mod-knob .mod-knob-image {
-    background-image:url(/resources/knobs/knob.png{{{ns}}});
+.mod-pedal-boxy{{{cns}}} .mod-control-group.mod-blue .mod-knob .mod-knob-image1
+{
+    background-image:url(/resources/knobs/knob.png{{{ns}}})
+}
+
+.mod-pedal-boxy{{{cns}}} .mod-control-group.mod-blue .mod-knob .mod-knob-image2
+{
+    background-image:url(/resources/knobs/knob.png{{{ns}}})
+}
+
+.mod-pedal-boxy{{{cns}}} .mod-control-group.mod-blue .mod-knob .mod-knob-image3
+{
+    background-image:url(/resources/knobs/knob.png{{{ns}}})
+}
+
+.mod-pedal-boxy{{{cns}}} .mod-control-group.mod-blue .mod-knob .mod-knob-image4
+{
+    background-image:url(/resources/knobs/knob.png{{{ns}}})
+}
+
+.mod-pedal-boxy{{{cns}}} .mod-control-group.mod-blue .mod-knob .mod-knob-image5
+{
+    background-image:url(/resources/knobs/knob.png{{{ns}}})
+};
